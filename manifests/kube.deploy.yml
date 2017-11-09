@@ -11,8 +11,6 @@ spec:
   # the port that this service should serve on
   - name: http
     port: 9080
-  - name: https
-    port: 9443
 
   selector:
     app: "msbtest-selector"
